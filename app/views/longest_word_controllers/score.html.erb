@@ -1,0 +1,13 @@
+<h1>******** Now your result ********</h1>
+
+
+
+<%=@result = run_game(@attempt, @grid, @start_time, @end_time)%>
+
+<p>Your word: #{@attempt}</p>
+puts "Time Taken to answer: #{result[:time]}"
+puts "Your score: #{result[:score]}"
+puts "Message: #{result[:message]}"
+
+puts "*****************************************************" -->
+
